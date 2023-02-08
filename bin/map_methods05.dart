@@ -10,7 +10,6 @@ void main() {
 
 Map func(Map data) {
   //your code here
-  Map data1={};
-  data['last_name'] += data1['surname'];
-  return data1;
+  data.remove('last_name');
+  return data;
 }
