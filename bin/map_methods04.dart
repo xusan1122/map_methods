@@ -7,11 +7,9 @@ void main() {
   //your code here
   // data.values.toList();
   data['password'] += '@';
-
   // return data;
   // List ls = [];
   // for (String i in data.values) {
-
   //   ls.add(data);
   // }
   print(data);
