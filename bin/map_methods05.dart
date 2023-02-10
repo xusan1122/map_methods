@@ -9,6 +9,6 @@ void main() {
 Map func(Map data) {
   //your code here
   data.remove('last_name');
-  data['surname'] = 'Keys';
+  data['surname'] = 'Kerry';
   return data;
 }
