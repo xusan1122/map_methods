@@ -7,6 +7,7 @@ void main() {
 }
 Map func(Map data, List lst) {
   //your code here
+  
   data[lst[0]]=lst[1];
   return data;
 }
